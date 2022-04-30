@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Local Small Business Directory -Manta</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/160b63bc72.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main class="the_container">
+        <section class="top">
+            
+            <nav class="manta_nav">
+                <div class="manta_logo">
+                    <img src="./asset/manta_logo_coral.svg"  alt="manta logo" />
+                </div>
+                <div class="nav_links">
+                    <ul class="nav_link_list">
+                        <li class="nav_link_1" id="nav_link"><a href="#" >For Businesses
+                            <img src="./fontawesome-free-5.15.4-desktop/svgs/solid/angle-down.svg" alt="angle-down">
+                            <div class="nav_hover" id="nav_hover">
+                                <div class="hover" >
+                                    <div class="hidden_link">
+                                        <ul>
+                                            <li><a href="#">For Businesses</a></li>
+                                            <li><a href="#">Free Company Listing</a></li>
+                                            <li><a href="#">Premium Business Listings</a></li>
+                                            <li><a href="#">Websites</a></li>
+                                            <li><a href="#">SEO</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </a></li>
+                        <li class="nav_link_2"><a href="#">Log In</a></li>
+                    </ul>
+                    <button class="nav_btn"><a>Claim My Listing</a></button>
+
+                </div>
+                <div class="nav_logo">
+                    <button id="nav_btn">
+                        <img src="./fontawesome-free-5.15.4-desktop/svgs/solid/bars.svg"   alt="menu bars" />
+                    </button>
+                </div>
+                
+            </nav>
+
+            <div class="container con_header">
+                <h2>Your New Favourite____ is a Search away</h2>
+                <p>America's Small Business Directory</p>
+            </div>
+
+            <form action="#" class="search_form">
+                <div class="s_1">
+                <label class="s_bar">
+                    <img src="./fontawesome-free-5.15.4-desktop/svgs/solid/search.svg" alt="search">
+                </label>
+                <input type="text" class="search_bar" placeholder="I'm looking for...">                    
+                </div>
+
+                <div class="s_1 s_2" id="s_1">
+                    <label class="s_bar">
+                        <span>|</span>
+                        <img src="./fontawesome-free-5.15.4-desktop/svgs/solid/map-marker.svg" alt="search">
+                    </label>
+                    <input type="text" class="search_bar" id="search_bar" placeholder="City, State, Country, Zip"> 
+                    <button class="search_btn"> 
+                        
+                        <img src="./fontawesome-free-5.15.4-desktop/svgs/solid/new/search.svg" alt="search button">
+                    </button>                   
+                    </div>
+
+            </form>
+
+            <div class="container con_header con2">
+                <p>America's Small Business Directory</p>
+            </div>
+
+        </section>
+
+        <section class="second">
+            <div class="sec_con">
+                <div class="col-lg-6  second_con">
+                    <h2>
+                        Calculate Your Home Project Costs
+                    </h2>
+
+                    <p class="col-lg-9">
+                        Getting ready to start some home projects for the fall?
+                        Start planning by Calculating typical project costs for your area.
+                    </p>
+                    <div class="btn_b">
+                        <button class="second_btn"><a>Calculate Your Costs</a></button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="cop_img">
+                    <img src="./asset/homeyou_large_optim.webp" class="col-8  col-sm-6 col-md-10 col-lg-12" alt="homeyou_large_optim"> 
+                </div>
+            </div>
+        </section>
+
+        <section class="third">
+            <div class="thid">
+            <div class="third_main">
+            <h5>Search Cities</h5>
+
+            <div class="third_container">
+            <div class="third_left">
+                <ul class="left_location">
+                    <li><a href="#">Los Angeles</a></li>
+                    <li><a href="#">Houston</a></li>
+                    <li><a href="#">Miami</a></li>
+                    <li><a href="#">Columbos</a></li>
+                    <li><a href="#">Philadelphia</a></li>
+                    <li><a href="#">Charlotte</a></li>
+                    <li><a href="#">San Fransisco</a></li>
+                </ul>
+            </div>
+
+            <div class="third_right">
+                <ul class="right_location">
+                    <li><a href="#">New York</a></li>
+                    <li><a href="#">Chicago</a></li>
+                    <li><a href="#">Denver</a></li>
+                    <li><a href="#">Dallas</a></li>
+                    <li><a href="#">Atlanta</a></li>
+                    <li><a href="#">Austin</a></li>
+                </ul>
+
+            </div>                
+            </div>
+            </div>
+
+           
+            </div>
+
+            <div class="third_duplicate">
+                <div class="third_container">
+                    <div class="third_left">
+                        <ul class="left_location">
+                            <li class="dub">Search Cities</li>
+                            <li><a href="#">Los Angeles</a></li>
+                            <li><a href="#">Houston</a></li>
+                            <li><a href="#">Miami</a></li>
+                            <li><a href="#">Columbos</a></li>
+                            <li><a href="#">Philadelphia</a></li>
+                            <li><a href="#">Charlotte</a></li>
+                            <li><a href="#">San Fransisco</a></li>
+                            <li><a href="#">New York</a></li>
+                            <li><a href="#">Chicago</a></li>
+                            <li><a href="#">Denver</a></li>
+                            <li><a href="#">Dallas</a></li>
+                            <li><a href="#">Atlanta</a></li>
+                            <li><a href="#">Austin</a></li>
+                        </ul>
+        
+                    </div>                
+                    </div>
+
+        </div>
+        </section>
+
+        <section class="fourth">
+            <div class="fourth_fst">
+                <div class="fst">
+                <h2>Small Business Finder</h2>
+                <p>Find the best local Businesses in your area</p> 
+                </div>
+            </div>
+
+            <div class="grid_prep">
+            <div class="grid-container">
+                <div class="grid-item"><a href="#"><img src="./asset/car_repair.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/bottle.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/house.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/plumber.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/real_estate.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/trucking.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/legal.png" alt="gird_image"></a></div>
+                <div class="grid-item"><a href="#"><img src="./asset/see_more.png" alt="gird_image"></a></div>
+              </div>
+            </div>
+        </section>
+
+        <section class="fifth">
+            <div class="fifth_container">
+                <div class="fifth_first">
+                    <div class="fifth_fst_left">
+                        <ul>
+                            <li class="the_first">Manta</li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="fifth_fst_right">
+                        <ul>
+                        <li class="the_first">For Businesses</li>
+                        <li><a href="#">Claim Your Listing</a></li>
+                        <li><a href="#">Listings</a></li>
+                        <li><a href="#">Websites</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Advertise With Us</a></li>                            
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="fifth_sec">
+              <div class="fifth_second">
+                    <ul>
+                        <li class="the_frits"><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+       
+                </div>
+
+                <div class="tis_left">
+                    <div class="fifth_fst_left">
+                        <ul>
+                            <li class="the_first">Manta</li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="fifth_fst_right">
+                        <ul>
+                        <li class="the_first">For Businesses</li>
+                        <li><a href="#">Claim Your Listing</a></li>
+                        <li><a href="#">Listings</a></li>
+                        <li><a href="#">Websites</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Advertise With Us</a></li>                            
+                        </ul>
+                    </div>
+
+                    <div class="fifth_fst_third">
+                     <ul>
+                        <li class="the">Legal</li>
+                        <li class="the_frits"><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>                       
+                    </div>
+
+                </div>
+
+                <div class="tis_right">
+                        <div class="tis_right_fst">
+                            <div class="tis_img"><a href="#"><img src="./asset/manta_logo_coral.svg" alt="home"></a></div>
+                            
+                            <div class="thid_right">
+                                <div class="twt"><a href="#"><img src="./fontawesome-free-5.15.4-desktop/svgs/brands/twitter.svg" alt="twitter"></a></div>
+                                <div class="fcb"><a href="#"><img src="./fontawesome-free-5.15.4-desktop/svgs/brands/facebook-f.svg" alt="facebook"></a></div>
+                                <div class="lni"><a href="#"><img src="./fontawesome-free-5.15.4-desktop/svgs/brands/linkedin.svg" alt="linkedin"></a></div>
+                            </div>  
+
+                            <div class="thid_left">
+                                <p class="p_hd"><span class="copyright">&#169</span>2022 Manta Media Inc.</br>
+                                All right reserved.</p>
+                            </div>
+    
+
+                        </div>                    
+                    <div class="fifth_fst_left">
+                        <ul>
+                            <li class="the_first">Manta</li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="fifth_fst_right">
+                        <ul>
+                        <li class="the_first">For Businesses</li>
+                        <li><a href="#">Claim Your Listing</a></li>
+                        <li><a href="#">Listings</a></li>
+                        <li><a href="#">Websites</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Advertise With Us</a></li>                            
+                        </ul>
+                    </div>
+
+                    <div class="fifth_fst_third">
+                     <ul>
+                        <li class="the">Legal</li>
+                        <li class="the_frits"><a href="#">Help</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>                       
+                    </div>
+                </div>
+               
+                <div class="fifth_third">
+                    <div class="fifth_thid">
+                        <div class="thid_left">
+                            <p class="p_hd"><span class="copyright">&#169</span>2022 Manta Media Inc.</br>
+                            All right reserved.</p>
+                        </div>
+
+                        <div class="thid_right">
+                            <div class="twt"><a href="#"><img src="./fontawesome-free-5.15.4-desktop/svgs/brands/twitter.svg" alt="twitter"></a></div>
+                            <div class="fcb"><a href="#"><img src="./fontawesome-free-5.15.4-desktop/svgs/brands/facebook-f.svg" alt="facebook"></a></div>
+                            <div class="lni"><a href="#"><img src="./fontawesome-free-5.15.4-desktop/svgs/brands/linkedin.svg" alt="linkedin"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <main class="hidden_nav" id="hidden_nav">
+            <div class="hidden_btn" id="hidden_btn">
+                <button class="hide_btn" id="hide_btn"><img src="./fontawesome-free-5.15.4-desktop/svgs/solid/times.svg" alt="hide"></button>
+            </div>
+
+            <div class="hidden_links">
+                <ul>
+                    <li><a href="#">For Businesses</a></li>
+                    <li><a href="#">Free Company Listing</a></li>
+                    <li><a href="#">Premium Business Listings</a></li>
+                    <li><a href="#">Websites</a></li>
+                    <li><a href="#">SEO</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden_login">
+                <div class="hidden_log">
+                    <button>Log In</button>
+                </div>
+                <div class="hidden_listing">
+                    <button>Claim My Listing</button>
+                </div>
+            </div>
+
+        </main>
+
+        <main class="click_form">
+            
+
+        </main>
+
+       
+    </main>
+
+
+    <script src="./js/manta_home.js">
+    </script>
+
+   
+</body>
+</html>
+

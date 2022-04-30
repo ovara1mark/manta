@@ -1,0 +1,27 @@
+
+	manta js structure
+
+event module:
+	-two events:takes input parameter from the form search
+
+	- the menu bar when click shows the nav options
+
+
+UI module:
+
+	-when form search bar clicked there is a drop down of items
+
+	-when hover a nav bar there should be options to click on.
+
+	-when the menu bar is click show the nav options
+
+logic module: 
+
+	-the two form needs to be filled before a search can happen
+	-when a form is incomplete show the color of the other form. 
+	
+
+	
+
+
+

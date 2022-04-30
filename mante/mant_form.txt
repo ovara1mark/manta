@@ -1,0 +1,23 @@
+
+
+		todo 
+
+---- when th form is click a dropdown comes out ----- event module/ui module
+
+----- you can click on a button that gives you your current location ---- event module/logic module
+
+----- when it gets it fills it in the input form ----- ui module
+
+----- when you click again shows you your previous entry ----event module/logic module /ui module
+
+----- you can change the location input by typing ----- event / logic module
+
+
+second form
+
+
+---- when the form is click there is dropdown of list of shops you want to find  ---- event / ui module
+
+---- when you click any it fills the form event / logic /ui module
+
+---- you can type any thing you want in the form event /logic / ui module
